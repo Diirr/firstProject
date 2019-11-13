@@ -1,0 +1,10 @@
+
+.carousel-inner .borderbox{
+	border: 3px solid #fff;
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	bottom: 25px;
+}
+	 
