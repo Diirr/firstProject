@@ -1,5 +1,6 @@
 div.gallery {
   border: 1px solid #ccc;
+  height: 450px;
 }
 
 div.gallery:hover {
@@ -14,6 +15,10 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  vertical-align: bottom;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 * {
@@ -21,21 +26,34 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 5px 6px;
   float: left;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 1024px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
+@media only screen and (max-width: 812px) {
+  .responsive {
+    width: 49.99999%;
+  }
+  div.gallery{
+    height: 350px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+  }
+  div.gallery{
+    height: auto;
   }
 }
 
