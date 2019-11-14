@@ -1,9 +1,5 @@
 /*Font styles added*/
-h {
-	font-family: "Notable", sans-serif;
-}
-
-h2 {
+h h1 h2 h3 h4 h5 h6 {
 	font-family: "Notable", sans-serif;
 }
 
@@ -33,7 +29,7 @@ body {
 .card-header {
   background-color: #333;
   color: white;
-  font-family: "Amatic SC";
+  font-family: "Chivo", sans-serif;
   font-weight: bold;
 }
 
