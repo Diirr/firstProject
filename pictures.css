@@ -24,6 +24,12 @@ div.desc {
   text-overflow: ellipsis; 
   }
 
+  div.picturehead{
+
+	  text-align:center;
+	  background: orange;
+  }
+
 * {
   box-sizing: border-box;
 }
