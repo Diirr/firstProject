@@ -1,6 +1,7 @@
 /*Font styles added*/
 h {
 	font-family: "Notable", sans-serif;
+}
 
 h2 {
 	font-family: "Notable", sans-serif;
@@ -57,10 +58,10 @@ body {
 	display: none;
 }
 
-/*.topnav a{
-	font-family: "Amatic SC";
+.topnav a{
+	font-family: "Chivo", sans-serif;
 	font-weight: bold;
-}*/
+}
 
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;} 
