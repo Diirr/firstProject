@@ -1,6 +1,9 @@
 div.gallery {
-  border: 1px solid #ccc;
-  height: 450px;
+  border: 3px solid #ccc;
+  height: 780px;
+  background: #F5F5F5;
+  overflow: hidden;
+
 }
 
 div.gallery:hover {
@@ -9,17 +12,17 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
   vertical-align: bottom;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-}
+  height:absolute;
+  text-overflow: ellipsis; 
+  }
 
 * {
   box-sizing: border-box;
@@ -44,7 +47,7 @@ div.desc {
     width: 49.99999%;
   }
   div.gallery{
-    height: 350px;
+    height: 780px;
   }
 }
 
