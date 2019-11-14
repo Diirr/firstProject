@@ -57,10 +57,10 @@ body {
 	display: none;
 }
 
-.topnav a{
+/*.topnav a{
 	font-family: "Amatic SC";
 	font-weight: bold;
-}
+}*/
 
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;} 
