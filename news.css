@@ -1,0 +1,53 @@
+/* CSS news feeds */
+
+.newfeed_container {
+  position: relative;
+  width: auto;
+  max-width: 30em;
+  height: auto;
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-radius: 2em 2em 2em 2em;
+  border: 2px solid black;
+  background: grey;
+}
+.newfeed-block1 {
+  position: relative;
+  height: 5em;
+  padding: 1em;
+  text-align: center;
+}
+.newfeed-block2 {
+  position: relative;
+  height: 30em;
+  padding: 1em;
+  margin: 0em;
+  background: white;
+  overflow: auto;
+}
+.newfeed-block3 {
+  position: relative;
+  height: 5em;
+  text-align: center;
+}
+  .text_newfeed_top {
+  color: white;
+  font-size: xx-large;
+  font-family: Arial;
+}
+  .text_newfeed_middle {
+  color: black;
+  font-size: x-large;
+  font-family: Arial;
+}
+  .text_newfeed_bottom {
+  color: white;
+  font-size: large;
+  font-family: Arial;
+}
+.without_padding_margin {
+  padding: 0em;
+  margin: 1em;
+}
