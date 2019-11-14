@@ -1,90 +1,97 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	    <link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="news.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC" />
 
-		<style>
-			body {
-				margin: 0;
-				font-family: Arial, Helvetica, sans-serif;
-			}
-		</style>
-	</head>
-	<body>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
 
-		<div class="topnav" id="myTopnav">
-			  <a href="index.html">Wild Photos</a>
-			  <a href="pictures.html">Pictures</a>
-			  <a href="news.html" class="active">Newsfeed</a>
-			  <a href="contact.html">Contact us</a>
-			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			    <i class="fa fa-bars"></i>
-			  </a>
-		</div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Wild Photos</a>
+      <a href="pictures.html">Pictures</a>
+      <a href="news.html" class="active">Newsfeed</a>
+      <a href="contact.html">Contact us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-		<div style="padding-left:16px">
-			  <h2>News</h2>
-			  
-			    <div class="newfeed_container">
-			      <div class="newfeed-block1">
-				<div class="text_newfeed_top">
-				  <!-- Einzeilig !!! -->
-				  News of this web-site 
-				</div> 
-			      </div> 
+    <div style="padding-left:16px">
+      <h2>News</h2>
+      <div class="newfeed_container">
+        <div class="newfeed-block1">
+          <div class="text_newfeed_top">
+            <!-- Einzeilig !!! -->
+            News of this web-site 
+          </div> 
+        </div> 
 
-			      <div class="newfeed-block2">
-				<div class="text_newfeed_middle">
-				  <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Testbild" class="image" style="width:100%">
-				  text2texttexttexttexttexttexttexttext 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br> text 
-				  <br>
-				</div>
-			      </div>
+        <div class="newfeed-block2">
+          <div class="text_newfeed_middle">
+            <!-- Beginn text news -->
+            <h2><br> Überschrift </h2>
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text 
+            <h2><br> Überschrift </h2>
+            <br> text 
+            <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Testbild" class="image" style="width:100%">
+            text2texttexttexttexttexttexttexttext 
+            <br> text 
+            <br> text 
+            <h2><br> Überschrift </h2>
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text 
+            <h2><br> Überschrift </h2>
+            <br> text 
+            <br> text 
+            <br> text 
+            <br> text
+          </div>
+        </div>
 
-			      <div class="newfeed-block3">
-				<div class="text_newfeed_bottom">
-				  <p  class="without_padding_margin"> 
-				    <!-- Zweizeilig !!! -->
-				    text3texttexttexttexttexttexttext 
-				    <br> text3 
-				  </p>
-				</div>           
-			      </div> 
-			    </div>        
+        <div class="newfeed-block3">
+          <div class="text_newfeed_bottom">
+            <p  class="without_padding_margin"> 
+              <!-- Zweizeilig !!! -->
+              text3texttexttexttexttexttexttext 
+              <br> text3 
+            </p>
+          </div>           
+        </div> 
+      </div>        
+    </div> 
 
 
-		</div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
 
-		<script>
-			function myFunction() {
-			  var x = document.getElementById("myTopnav");
-			  if (x.className === "topnav") {
-			    x.className += " responsive";
-			  } else {
-			    x.className = "topnav";
-			  }
-			}
-		</script>
-
-	</body>
+  </body>
 
 </html>
