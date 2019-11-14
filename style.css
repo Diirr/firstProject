@@ -1,27 +1,16 @@
-.topnav {
-  position: fixed;
-  top: 0;
-	overflow: hidden;
-	background-color: #333;
-  width: 100%;
-  z-index: 10;  /* z-index gibt an, in welcher Reihenfolge Elemente auf dem Ausgabemedium dargestellt werden. */
-}               /* Elemente mit einem größeren z-index liegen dabei näher am Betrachter. */
-                /* Andernfalls wäre beim Scrollen das Bild über die Top Navigation geschoben worden */
-
-.footernav {
-  position: fixed;
-  overflow: hidden;
-  color: white;
-  background-color: #333;
-  bottom: 0;
-  width: 100%;
+/*Font styles added*/
+h {
+	font-family: "Notable", sans-serif;
 }
 
-.card-header {
-  background-color: #333;
-  color: white;
-  font-family: "Amatic SC";
-  font-weight: bold;
+body {
+	font-family: "Nunito", sans-serif;
+}
+
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
 }
 
 .topnav a {
@@ -32,13 +21,20 @@
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-}
+	/*font-family: "Amatic SC";*/
+	font-family: "Chivo", sans-serif;
+	font-weight: bold;
 
 .topnav a:hover {
 	background-color: #ddd;
 	color: black;
 }
 
+/*.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+*/
 .topnav .icon {
 	display: none;
 }
@@ -50,7 +46,8 @@
 
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;} 
-	.topnav a.icon {
+/*	.topnav a:nth-child(1n+0) {display: .topnav a;}
+*/	.topnav a.icon {
 		float: right;
 		display: block;
 	}
@@ -69,13 +66,4 @@
 	float: none;
 	display: block;
 	text-align: left;
-}
-
-ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-li {
-  float: left;
 }
