@@ -13,13 +13,13 @@ body {
 	overflow: hidden;
 	background-color: #333;
   width: 100%;
-  z-index: 10;  /* z-index gibt an, in welcher Reihenfolge Elemente auf dem Ausgabemedium dargestellt werden. */
+  z-index: 10000;  /* z-index gibt an, in welcher Reihenfolge Elemente auf dem Ausgabemedium dargestellt werden. */
 }               /* Elemente mit einem größeren z-index liegen dabei näher am Betrachter. */
                 /* Andernfalls wäre beim Scrollen das Bild über die Top Navigation geschoben worden */
 
 .footernav {
   position: fixed;
-  overflow: hidden;
+  overflow: visible;
   color: white;
   background-color: #333;
   bottom: 0;
