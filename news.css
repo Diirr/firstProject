@@ -1,15 +1,5 @@
 /* CSS news feeds */
 
-
-.flex_container_news { 
-  display: flex;
-  justify-content: space-around;
-} 
-
-h2{
-	text-align: center;
-}
-
 .without_padding_margin {
   padding: 0em;
   margin: 1em;
@@ -28,10 +18,14 @@ h2{
   background: grey;
 }
 .newfeed_head {
-  position: relative;
-  height: 5em;
+  margin: 0em;
+  height: 6em;
   padding: 1em;
   text-align: center;
+  display: inline;
+}
+.newfeed_head h1 {
+  margin: 0em;
 }
 .text_newfeed_head {
   color: white;
@@ -46,6 +40,9 @@ h2{
   background: white;
   overflow: auto;
 }
+.newfeed_info h2{
+  text-align: center;
+}
 .text_newfeed_info {
   color: black;
   font-size: x-large;
@@ -53,8 +50,9 @@ h2{
 }
 .newfeed_foot {
   position: relative;
-  height: 5em;
+  height: 4em;
   text-align: center;
+  display: inline;
 }
 .text_newfeed_foot {
   color: white;
