@@ -1,0 +1,60 @@
+/* CSS news feeds */
+
+
+.flex_container_news { 
+  display: flex;
+  justify-content: space-around;
+} 
+
+h2{
+	text-align: center;
+}
+
+.without_padding_margin {
+  padding: 0em;
+  margin: 1em;
+}
+.newfeed_container {
+  border: 2px solid black;
+  background: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+.newfeed_head {
+  position: relative;
+  height: 5em;
+  padding: 1em;
+  text-align: center;
+}
+.text_newfeed_head {
+  color: white;
+  font-size: xx-large;
+  font-family: Arial;
+}
+.newfeed_info {
+  position: relative;
+  height: 30em;
+  padding: 1em;
+  margin: 0em;
+  background: white;
+  overflow: auto;
+}
+.text_newfeed_info {
+  color: black;
+  font-size: x-large;
+  font-family: Arial;
+}
+.newfeed_foot {
+  position: relative;
+  height: 5em;
+  text-align: center;
+}
+.text_newfeed_foot {
+  color: white;
+  font-size: large;
+  font-family: Arial;
+}
+
