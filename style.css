@@ -1,6 +1,37 @@
+/*Font styles added*/
+
+body {
+	font-family: "Nunito", sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6 {
+	font-family: "Notable", sans-serif;
+}
+
 .topnav {
+  position: fixed;
+  top: 0;
 	overflow: hidden;
 	background-color: #333;
+  width: 100%;
+  z-index: 10000;  /* z-index gibt an, in welcher Reihenfolge Elemente auf dem Ausgabemedium dargestellt werden. */
+}               /* Elemente mit einem größeren z-index liegen dabei näher am Betrachter. */
+                /* Andernfalls wäre beim Scrollen das Bild über die Top Navigation geschoben worden */
+
+.footernav {
+  position: fixed;
+  overflow: visible;
+  color: white;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-header {
+  background-color: #333;
+  color: white;
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
 }
 
 .topnav a {
@@ -11,6 +42,8 @@
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	font-family: "Chivo", sans-serif;
+	font-weight: bold;
 }
 
 .topnav a:hover {
@@ -18,24 +51,18 @@
 	color: black;
 }
 
-/*.topnav a.active {
-	background-color: #4CAF50;
-	color: white;
-}
-*/
 .topnav .icon {
 	display: none;
 }
 
 .topnav a{
-	font-family: "Amatic SC";
+	font-family: "Chivo", sans-serif;
 	font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child) {display: none;} 
-/*	.topnav a:nth-child(1n+0) {display: .topnav a;}
-*/	.topnav a.icon {
+	.topnav a.icon {
 		float: right;
 		display: block;
 	}
@@ -56,3 +83,11 @@
 	text-align: left;
 }
 
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  float: left;
+}
